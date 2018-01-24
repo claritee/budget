@@ -27,6 +27,8 @@ defmodule Budget do
   end
 
   defp parse_to_flat(string) do
-    String.to_float(string)
+    string
+    |> String.to_float
+    |> abs
   end
 end
