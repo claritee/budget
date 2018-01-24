@@ -1,6 +1,6 @@
 # Budget
 
-**TODO: Add description**
+Example project from: https://www.codeschool.com/screencasts/build-a-bank-statement-cli-application-with-elixir
 
 ## Installation
 
