@@ -12,6 +12,6 @@ defmodule Budget do
   end
 
   defp filter(rows) do
-  	Enum.map(rows, fn(row) -> Enum.drop(row, 1) end)
+  	Enum.map(rows, &Enum.drop(&1, 1))
   end
 end
